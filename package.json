@@ -1,0 +1,16 @@
+{
+  "name": "leaky-cauldron",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "find-leaks": "fuite --scenario ./fuite-scenario.mjs http://localhost:9764/",
+    "start": "http-server . --port 9764"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "fuite": "^5.0.3",
+    "http-server": "^14.1.1"
+  }
+}
